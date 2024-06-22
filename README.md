@@ -2,8 +2,23 @@
 
 This project contains Java programs for two distinct problems: character sorting and a simulation of a PSBB bus scenario. Each problem is implemented in its own directory with detailed explanations and instructions for running the programs.
 
+## Requirements
+- JAVA 17.0 JDK
+- IntelliJ IDEA
+
+## Installation
+1. Clone this repository
+  ```bash
+  git clone https://github.com/snditrie/Java-Sorting-and-PSBB-Bus-Simulation.git
+  ```
+2. Navigate to the project directory
+  ```bash
+  cd Java-Sorting-and-PSBB-Bus-Simulation
+  ```
+
 ## Sort Characters
 This Java program `SortCharacter` is designed to analyze a given input string, classify characters into vowels and consonants, count their occurrences, and then sort and display them accordingly. It includes functionality to read input, process characters, and utilize maps for counting and sorting.
+
 ### Features
 - **Input Handling**: Reads a single line of input from the user.
 - **Character Classification**: Determines if each character is a vowel or consonant (ignores spaces).
@@ -31,6 +46,7 @@ clmpss
 
 ## PSBB Bus Simulation
 This Java program `Psbb` is designed to simulate a scenario where families need to be transported using minibuses under PSBB (Pembatasan Sosial Berskala Besar) restrictions. The goal is to minimize the number of minibuses required by efficiently combining family members, adhering to a maximum capacity of 4 members per minibus.
+
 ### Features
 - **Input Handling**: Reads the number of families and the number of members in each family.
 - **Family Size Validation**: Ensures the input for the number of family members matches the number of families.
